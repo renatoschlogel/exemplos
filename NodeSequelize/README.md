@@ -20,4 +20,11 @@
      4. Mova as pastas migrations e seeders para dentro de database e a pasta models para dentro de app;
      5. Criar fonte .sequelizerc na raiz do projeto (ver conteundo no projeto);
      6. Criar migration para criação da da tabelas User    : node_modules/.bin/sequelize migration:create --name=create-users
-     7. Executar a migration                               : node_modules/.bin/sequelize db:migrate
+     7. Executar a migration                               : node_modules/.bin/sequelize db:migrate;
+
+### Docker Compose, para falicitar a utilização do banco:
+
+     1. Acessar a pasta ./DockerComposeMariaDB;
+     2. Para subir o container, executar o sequinte comando    : docker-compose up;
+          * Serao startados dois containers, um com o banco de dados MariaDB na porta 3306 
+            e o outro com o PHPMyAdmin para a consulta do banco, na porta 3307;
