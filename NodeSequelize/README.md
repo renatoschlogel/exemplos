@@ -3,7 +3,7 @@
 
 ## Roteiro:
 
-#### OBS : Estou utilizando o yarn para gerancia as dependencia, porem tambem pode ser utilizado o npm;
+#### OBS : Estou utilizando o yarn para gerenciar as dependencias, porém também pode ser utilizado o npm;
 
 ### Dependencias:
      1. Criar pasta para o projeto e iniciar o projeto com                         : yarn init -y;
