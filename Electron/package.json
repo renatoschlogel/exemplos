@@ -1,0 +1,14 @@
+{
+  "name": "app-electron",
+  "version": "1.0.0",
+  "description": "Exemplo de utilização do electron",
+  "author": "Renato W Schlogel",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^7.1.1"
+  }
+}
